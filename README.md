@@ -39,8 +39,10 @@ pip install pytest pytest-httpx
 
 ### Running Tests
 
-To run the test suite, use `pytest`:
+To run the test suite, call `pytest` in the root folder or each test individually:
 
 ```bash
-pytest
+pytest tests/test_end_to_end.py
+pytest tests/test_generator.py
+pytest tests/test_parser.py
 ```

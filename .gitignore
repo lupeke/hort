@@ -1,11 +1,12 @@
 # ignore everything
 *
 
-except...
+# except...
 !/.gitignore
 !/pyproject.toml
 !/README.md
 !/hort/*
 !/tests/*
-...even if they're inside subdirs
+
+# ...even if they're inside subdirs
 !*/
