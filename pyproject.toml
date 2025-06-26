@@ -1,0 +1,11 @@
+[project]
+name = "hort"
+version = "0.1.0"
+dependencies = ["click", "Jinja2", "PyYAML", "httpx"]
+authors = [{ name = "Daniel Dias", email = "daniel@lupeke.dev" }]
+
+[project.scripts]
+hort = "hort.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
